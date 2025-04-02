@@ -12,11 +12,18 @@
             background-color: #f9f9f9;
         }
         header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
-            background-color: chocolate;
+            background-color: #E2E2E2;
+            height: 50px;
             color: white;
             padding: 1px 0;
             margin: 10px;
+        }
+        h2{
+        margin: 0;
         }
         table{
             width: 100%;
@@ -45,7 +52,34 @@
             <td>500$</td>
             <td><a href="https://think-ecuador.com/tienda/iphone-16-plus/">Buy Now</a></td>
         </tr>
+        <tr>
+            <td>Samsung</td>
+            <td><img src="https://th.bing.com/th/id/OPHS.a0PktuGiKiYigQ474C474?w=592&h=550&o=5&dpr=1.5&pid=21.1" alt="iPhone Image" style="width: 100px;"></td>
+            <td>500$</td>
+            <td><a href="https://www.bestbuy.com/site/searchpage.jsp?st=samsung+s24&id=pcat17071">Buy Now</a></td>
+        </tr>
+        <tr>
+            <td>one plus</td>
+            <td><img src="https://image01.oneplus.net/media/202412/19/69f2d3e8d905b936f707bb1b317ba4b9.png" alt="iPhone Image" style="width: 100px;"></td>
+            <td>500$</td>
+            <td><a href="https://www.oneplus.com/us/oneplus-13r?sku=5011111059">Buy Now</a></td>
+        </tr>
     </table>
+<form action="" style="background-color: rgb(137, 141, 141);">
+    <h2>Request Your Device Now!</h2>
+    <form action="https://webdom.com/submit" method="post">
+        <label for="name-input">Name:</label>
+        <input type="text" id="name-input"required>
 
+        <label for="Email-input">Email:</label>
+        <input type="email" id="Email-input" placeholder="vim@webdom.com" required>
+
+        <label for="date-input">Date of Birth:</label>
+        <input type="date" id="date-input">
+
+        <label for="checkbox-input">remmeber me</label>
+        <input type="checkbox" id="checkbox-input" required>
+        <input type="submit">
+</form>
 </body>
 </html>
